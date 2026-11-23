@@ -1,3 +1,6 @@
+# https://github.com/vijha4951/Lab-11-SJ-KK
+# Partner 1: Sannvi Jha
+# Partner 2: Kaushik
 
 import math
 
