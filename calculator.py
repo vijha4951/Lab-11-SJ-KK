@@ -1,3 +1,4 @@
+
 # https://github.com/vijha4951/Lab-11-SJ-KK
 # Partner 1: Sannvi Jha
 # Partner 2: Kaushik
@@ -17,7 +18,6 @@ def hypotenuse(a, b):
         return math.hypot(a, b)
     except (TypeError, ValueError):
         raise ValueError("Invalid hypotenuse arguments")
-
 
 
 def add(a, b):
@@ -46,7 +46,9 @@ def logarithm(a, b):
 
 def exponent(a, b):
     return a ** b
-    def mul(a, b):
+
+
+def mul(a, b):
     return multiply(a, b)
 
 
@@ -56,3 +58,4 @@ def div(a, b):
 
 def exp(a, b):
     return exponent(a, b)
+
