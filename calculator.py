@@ -2,6 +2,21 @@
 import math
 
 
+def square_root(a):
+    try:
+        return math.sqrt(a)
+    except ValueError:
+        raise ValueError("Cannot take square root of a negative number")
+
+
+def hypotenuse(a, b):
+    try:
+        return math.hypot(a, b)
+    except (TypeError, ValueError):
+        raise ValueError("Invalid hypotenuse arguments")
+
+
+
 def add(a, b):
     return a + b
 
